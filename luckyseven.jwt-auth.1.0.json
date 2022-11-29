@@ -3,7 +3,7 @@
     "luckyseven/jwt-auth": {
       "manifest": {
         "bundles": {
-          "Luckyseven\\Bundle\\JwtAuthBundle": [
+          "Luckyseven\\Bundle\\JwtAuthBundle\\JwtAuthBundle": [
             "all"
           ]
         },
