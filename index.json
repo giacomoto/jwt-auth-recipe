@@ -1,0 +1,14 @@
+{
+    "recipes": {
+        "luckyseven/jwt-auth": [
+            "1.0"
+        ]
+    },
+    "branch": "master",
+    "is_contrib": true,
+    "_links": {
+        "repository": "github.com/giacomoto/jwt-auth-recipes",
+        "origin_template": "{package}:{version}@github.com/giacomoto/jwt-auth-recipes:master",
+        "recipe_template": "https://api.github.com/repos/giacomoto/jwt-auth-recipes/contents/{package_dotted}.{version}.json"
+    }
+}
