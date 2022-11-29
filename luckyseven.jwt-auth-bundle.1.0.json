@@ -1,0 +1,31 @@
+{
+  "manifests": {
+    "luckyseven/jwt-auth-bundle": {
+      "manifest": {
+        "bundles": {
+          "Luckyseven\\JwtAuth\\JwtAuthBundle": [
+            "all"
+          ]
+        },
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%"
+        },
+        "env": {
+          "ACCESS_TOKEN_TTL": 604800,
+          "REFRESH_TOKEN_TTL": 2592000
+        }
+      },
+      "files": {
+        "config/packages/lexik_jwt_authentication.yaml": {
+          "contents": [
+            "luckyseven_jwt_auth:",
+            "    foo: 'bar'",
+            ""
+          ],
+          "executable": false
+        }
+      },
+      "ref": "5b2157bcd57234fds5696e42f552ad36529a07a6"
+    }
+  }
+}
