@@ -16,7 +16,7 @@
         }
       },
       "files": {
-        "config/packages/luckyseven_jwt_auth.yaml": {
+        "config/packages/jwt_auth.yaml": {
           "contents": [
             "luckyseven_jwt_auth:",
             "    foo: 'bar'",
