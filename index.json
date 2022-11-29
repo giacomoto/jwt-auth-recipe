@@ -8,7 +8,7 @@
     "is_contrib": true,
     "_links": {
         "repository": "github.com/giacomoto/jwt-auth-recipes",
-        "origin_template": "{package}:{version}@github.com/giacomoto/jwt-auth-recipes:master",
+        "origin_template": "{package}:{version}@github.com/giacomoto/jwt-auth-recipes:main",
         "recipe_template": "https://api.github.com/repos/giacomoto/jwt-auth-recipes/contents/{package_dotted}.{version}.json"
     }
 }
