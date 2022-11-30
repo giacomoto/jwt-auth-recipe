@@ -26,12 +26,12 @@
                      "#api_register:",
                      "#    path: /api/v1/auth/register",
                      "#    methods: post",
-                     "#    controller: App\Controller\AuthController::register",
+                     "#    controller: App\\Controller\\AuthController::register",
                      "",
                      "#api_get_me:",
                      "#    path: /api/v1/me",
                      "#    methods: get",
-                     "#    controller: App\Controller\AuthController::getMe"
+                     "#    controller: App\\Controller\\AuthController::getMe"
                   ],
                   "executable":false
                }
@@ -42,7 +42,7 @@
                "REFRESH_TOKEN_TTL":2592000
             }
          },
-         "ref":"5b2157bcd57234fdt5696e42f552ad36529a07b7"
+         "ref":"5b2157bcd57234fdt5696e42f552ai36529a07b7"
       }
    }
 }
