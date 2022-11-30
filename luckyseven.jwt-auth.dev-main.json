@@ -14,35 +14,35 @@
                "  * Luckyseven JWT-Auth Bundle is almost ready:",
                "  * <fg=blue>Read</> Follow the documentation at <comment>https://github.com/giacomoto/jwt-auth-bundle</>"
             ],
-            "files":{
-               "config/routes/api_platform_admin.yaml":{
-                  "contents":[
-                     "api_login_check:",
-                     "    path: /api/v1/auth/login",
-                     "",
-                     "api_refresh_token:",
-                     "    path: /api/v1/auth/refresh",
-                     "",
-                     "#api_register:",
-                     "#    path: /api/v1/auth/register",
-                     "#    methods: post",
-                     "#    controller: App\\Controller\\AuthController::register",
-                     "",
-                     "#api_get_me:",
-                     "#    path: /api/v1/me",
-                     "#    methods: get",
-                     "#    controller: App\\Controller\\AuthController::getMe"
-                  ],
-                  "executable":false
-               }
-            },
-            "env":{
-               "USER_IDENTITY_FIELD":"id",
-               "ACCESS_TOKEN_TTL":604800,
-               "REFRESH_TOKEN_TTL":2592000
+         },
+         "files":{
+            "config/routes/auth.yaml":{
+               "contents":[
+                  "api_login_check:",
+                  "    path: /api/v1/auth/login",
+                  "",
+                  "api_refresh_token:",
+                  "    path: /api/v1/auth/refresh",
+                  "",
+                  "#api_register:",
+                  "#    path: /api/v1/auth/register",
+                  "#    methods: post",
+                  "#    controller: App\\Controller\\AuthController::register",
+                  "",
+                  "#api_get_me:",
+                  "#    path: /api/v1/me",
+                  "#    methods: get",
+                  "#    controller: App\\Controller\\AuthController::getMe"
+               ],
+               "executable":false
             }
          },
-         "ref":"5b2157bcd57234fdt5696e42f552ai36529a07b7"
+         "env":{
+            "USER_IDENTITY_FIELD":"id",
+            "ACCESS_TOKEN_TTL":604800,
+            "REFRESH_TOKEN_TTL":2592000
+         },
+         "ref":"5b2157asd57234fdt5696e42f552ai36529a07b7"
       }
    }
 }
