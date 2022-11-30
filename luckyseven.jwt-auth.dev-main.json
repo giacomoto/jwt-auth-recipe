@@ -13,7 +13,7 @@
             "post-install-output":[
                "  * Luckyseven JWT-Auth Bundle is almost ready:",
                "  * <fg=blue>Read</> Follow the documentation at <comment>https://github.com/giacomoto/jwt-auth-bundle</>"
-            ],
+            ]
          },
          "files":{
             "config/routes/auth.yaml":{
