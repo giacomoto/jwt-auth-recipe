@@ -1,22 +1,39 @@
 {
-  "manifests": {
-    "luckyseven/jwt-auth": {
-      "manifest": {
-        "bundles": {
-          "Luckyseven\\Bundle\\LuckysevenJwtAuthBundle\\LuckysevenJwtAuthBundle": [
-            "all"
-          ]
-        },
-        "copy-from-recipe": {
-          "config/": "%CONFIG_DIR%"
-        },
-        "env": {
-          "USER_IDENTITY_FIELD": "id",
-          "ACCESS_TOKEN_TTL": 604800,
-          "REFRESH_TOKEN_TTL": 2592000
-        }
-      },
-      "ref": "5b2157bcd57234fds5696e42f552ad36529a07b7"
-    }
-  }
+   "manifests":{
+      "luckyseven/jwt-auth":{
+         "manifest":{
+            "bundles":{
+               "Luckyseven\\Bundle\\LuckysevenJwtAuthBundle\\LuckysevenJwtAuthBundle":[
+                  "all"
+               ]
+            },
+            "copy-from-recipe":{
+               "config/":"%CONFIG_DIR%"
+            },
+            "post-install-output":[
+               "  * Luckyseven JWT-Auth Bundle is almost ready:",
+               "  * <fg=blue>Read</> Follow the documentation at <comment>https://github.com/giacomoto/jwt-auth-bundle</>"
+            ],
+            "files":{
+               "config/routes/api_platform_admin.yaml":{
+                  "contents":[
+                     "admin:",
+                     "    path: /admin",
+                     "    controller: Symfony\\Bundle\\FrameworkBundle\\Controller\\TemplateController",
+                     "    defaults:",
+                     "        template: admin.html.twig",
+                     ""
+                  ],
+                  "executable":false
+               }
+            },
+            "env":{
+               "USER_IDENTITY_FIELD":"id",
+               "ACCESS_TOKEN_TTL":604800,
+               "REFRESH_TOKEN_TTL":2592000
+            }
+         },
+         "ref":"5b2157bcd57234fdt5696e42f552ad36529a07b7"
+      }
+   }
 }
