@@ -7,8 +7,8 @@
     "branch": "main",
     "is_contrib": true,
     "_links": {
-        "repository": "github.com/giacomoto/jwt-auth-recipes",
-        "origin_template": "{package}:{version}@github.com/giacomoto/jwt-auth-recipes:main",
-        "recipe_template": "https://api.github.com/repos/giacomoto/jwt-auth-recipes/contents/{package_dotted}.{version}.json"
+        "repository": "github.com/giacomoto/jwt-auth-recipe",
+        "origin_template": "{package}:{version}@github.com/giacomoto/jwt-auth-recipe:main",
+        "recipe_template": "https://api.github.com/repos/giacomoto/jwt-auth-recipe/contents/{package_dotted}.{version}.json"
     }
 }
