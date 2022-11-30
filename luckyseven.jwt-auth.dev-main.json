@@ -11,30 +11,12 @@
           "config/": "%CONFIG_DIR%"
         },
         "env": {
+          "USER_IDENTITY_FIELD": "id",
           "ACCESS_TOKEN_TTL": 604800,
           "REFRESH_TOKEN_TTL": 2592000
         }
       },
-      "files": {
-        "config/packages/luckyseven_jwt_auth.yaml": {
-          "contents": [
-            "luckyseven_jwt_auth:",
-            "    foo: 'bar'",
-            ""
-          ],
-          "executable": false
-        },
-        "config/packages/lexik_jwt_authentication.yaml": {
-          "contents": [
-            "lexik_jwt_authentication:",
-            "    user_identity_field: 'id'",
-            "    token_ttl: '%env(int:ACCESS_TOKEN_TTL)%'",
-            ""
-          ],
-          "executable": false
-        }
-      },
-      "ref": "5b2157bcd57234fds5696e42f552ad36529a07a7"
+      "ref": "5b2157bcd57234fds5696e42f552ad36529a07b7"
     }
   }
 }
