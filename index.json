@@ -1,7 +1,7 @@
 {
     "recipes": {
         "luckyseven/jwt-auth": [
-            "dev-main"
+            "1.0"
         ]
     },
     "branch": "main",
